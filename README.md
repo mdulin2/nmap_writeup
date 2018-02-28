@@ -1,4 +1,4 @@
-# NMap
+# Nmap
 
 ## Introduction
 Nmap is a free network scanner, that has an amazing variety that people can use.  
@@ -77,3 +77,16 @@ However, there are more advanced features than this... A person can have a key s
 ssh -i key_file.pem student@ada.gonzaga.edu
 ```
 This will allow you to log into a server with a key. Note, AWS keys use a ubuntu@.... for ec2 instances. 
+
+## Learning basic networking
+Here's how I learned what I know about it:
+Microsoft certification area: https://www.youtube.com/watch?v=t9TmvFvYfWw&list=PLAVVUE5_qTL0sujvs5pGySHl1pXuw1job 
+Then, just googling things I did not know. 
+
+## Website fun
+TBD
+
+
+##
+
+
