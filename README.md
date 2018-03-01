@@ -2,7 +2,8 @@
 
 ## Introduction
 Nmap is a free network scanner, that has an amazing variety that people can use.  
-Just to begin, it can scan for open ports, versions of the server, scan whole subnets, check particular ports things...  Nmap is an extremely versitle tool.
+Just to begin, it can scan for open ports, versions of the server, scan whole subnets, check particular ports things...  Nmap is an extremely versitle tool.  
+For the server that I set up, people need to notify to put it back up. For the specs on here, I will use IPADDRESS to symbolize it. 
 
 ## Installation
 I would run this is a Linux virtual machine, in the terminal. So, that's how I'm going to explain it here.  
@@ -85,9 +86,9 @@ Then, just googling things I did not know.
 
 ## Website fun
 So, using the mechanisms above it is possible to break into the server that I have set up. The IP address changes everytime that I turn it on. So, if you want to attempt to break into it, shoot me an email or text; then I'll set it up and let you know the IP address.  
-Using all of the tools above, a person can see a clear vulnerbility in the system. Run nmap IPaddress# -A.  
+Using all of the tools above, a person can see a clear vulnerbility in the system. Run nmap IPADDRESS# -A.  
 ## Results
-Nmap is extremely good at picking up on things when they are public. In this case, it was able to discover that all of the files on my website (IPADDESS/GonzagaDodgeball/Information.html), that I was using a github repository, that a apache server is being used... And much much more. Do any of these files seem interesting to you that it shows? The one that show really catch a person's eye is the robots.txt file. To read more click http://www.robotstxt.org/  
+Nmap is extremely good at picking up on things when they are public. In this case, it was able to discover that all of the files on my website (IPADDRESS/GonzagaDodgeball/Information.html), that I was using a github repository, that a apache server is being used... And much much more. Do any of these files seem interesting to you that it shows? The one that show really catch a person's eye is the robots.txt file. To read more click http://www.robotstxt.org/  
 The robots.txt file is meant to prevent web scraping on certain parts of the website. But, the files not to be scraped are probably files that they don't want people to see. So, check this file out!  
 A file should be referenced in there; open that file now.   
 ## Logging in
