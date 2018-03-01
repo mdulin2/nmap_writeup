@@ -84,9 +84,20 @@ Microsoft certification area: https://www.youtube.com/watch?v=t9TmvFvYfWw&list=P
 Then, just googling things I did not know. 
 
 ## Website fun
-TBD
+So, using the mechanisms above it is possible to break into the server that I have set up. The IP address changes everytime that I turn it on. So, if you want to attempt to break into it, shoot me an email or text; then I'll set it up and let you know the IP address.  
+Using all of the tools above, a person can see a clear vulnerbility in the system. Run nmap IPaddress# -A.  
+## Results
+Nmap is extremely good at picking up on things when they are public. In this case, it was able to discover that all of the files on my website (IPADDESS/GonzagaDodgeball/Information.html), that I was using a github repository, that a apache server is being used... And much much more. Do any of these files seem interesting to you that it shows? The one that show really catch a person's eye is the robots.txt file. To read more click http://www.robotstxt.org/  
+The robots.txt file is meant to prevent web scraping on certain parts of the website. But, the files not to be scraped are probably files that they don't want people to see. So, check this file out!  
+A file should be referenced in there; open that file now.   
+## Logging in
+I don't want to spoil the whole surprise. So, I don't tell you what the file is exactly.  
+Just a reminder though, for an AWS instance login for an EC2 instance, use `ssh -i key.pem ubuntu@IPADDRESS`
 
+## I'll tell you
+Okay, the file above is a pem file, or a private key file used to access the server. Use it to login to the server that I set up! Remember, copy the <b> whole file </b>. Otherwise, it won't work for a login. Once you've downloaded the key, make sure to change the permissions of it, otherwise you'll have a ton of errors thrown at you! Use `chmod +x key.pem` to do this. The +x is for changing it to an executable, taking away write and reading privledges. This may seem really stupid but it actually happens quite frequently! Tesla recently had a server compromised for this same exact reason. https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/ 
 
-##
+## The End
+Thanks for checking this out! I really enjoy my hacking and computer security jazz! If anyone has any idea or exploits, or just fun hacking projects please let me know. I would love to learn/help out on it! If anyone has any questions, feel free to call, email or text me about this. 
 
 
